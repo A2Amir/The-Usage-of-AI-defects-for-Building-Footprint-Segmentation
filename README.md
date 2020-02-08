@@ -1,0 +1,2 @@
+#  Building Footprint Segmentataion
+ To investigate the effect of pre-processing algorithms in the field of Building Footprint Segmentation, we are going to design a pre-processing algorithm that manipulates the training data to feed them into a Mask R-CNN network that can perform instance segmentation or fake semantic segmentation based on the execution or non-execution of the pre-processing algorithm
