@@ -1,7 +1,7 @@
 <p align="center">
 <img src="./img/1.gif" alt="paper" />
 <p align="center">
-
+---
 <p align="center">
 <img src="./img/fig1.jpg" alt="paper" />
 <p align="center">
