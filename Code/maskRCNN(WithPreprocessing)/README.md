@@ -1,4 +1,4 @@
-# MaskRCNN to detect Building Footprints
+# MaskRCNN for Instance Segmentation of Building Footprints
 MASK RCNN Model is changed by Amir Ziaee
 
 ## Prerequisites
