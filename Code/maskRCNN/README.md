@@ -9,7 +9,6 @@ MASK RCNN Model is changed by Amir Ziaee
 
 ## Get started
 
-(https://github.com/olgaliak/segmentation-unet-maskrcnn/blob/master/maskRCNN/main_train.py) 
 
 ## change Configuration
 
@@ -17,16 +16,18 @@ In config.py you can change Learning Rate and LEARNING_MOMENTUM and WEIGHT_DECAY
 The size of input images you can change in mrcnn_config (IMAGE_HEIGHT,IMAGE_WIDTH)
 
 
-## Prepare data
-
-There are two datasets here: satellite imagery, human-labeled masks for target sustainable farming,aded data. A small sample of input data has been uploaded into the parent folder. The data preprocessing is described in my code.
-
-input data folder structure for maskRCNN
+## Input data folder structure for maskRCNN
           
-train/valid/test
+          |-train
+          |---jpg4 (Satellite images)
+          |---polygon (masks)
+          |-valid
+          |---jpg4 (Satellite images)
+          |---polygon (masks)
+          |-test
+          |---jpg4 (Satellite images)
+          |---polygon (masks)
 
-            jpg4 (Satellite images)
-            polygon (masks)
 
 ## Train maskRCNN
 In general, we need millions of images to train a deep learning model from scratch. As discussed before, we have unbalanced training dataset and the training dataset size is not enough for training a MaskRCNN model from scratch.
