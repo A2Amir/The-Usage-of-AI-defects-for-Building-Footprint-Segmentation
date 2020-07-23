@@ -1,4 +1,4 @@
-# MaskRCNN to detect sustainbale farming
+# MaskRCNN to detect Building Footprints
 MASK RCNN Model is changed by Amir Ziaee
 
 ## Prerequisites
