@@ -18,4 +18,4 @@
 <img src="./img/fig5.jpg" alt="paper" />
 <p align="center">
 ----
-  Amir Ziee
+Follow me on [Medium](https://medium.com/@ziaee.a.a)
